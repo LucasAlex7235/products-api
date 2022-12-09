@@ -13,3 +13,5 @@ category_id INTEGER,
 FOREIGN KEY(category_id) REFERENCES categories(id) ON DELETE CASCADE
 );
 
+=======
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
