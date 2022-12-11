@@ -1,7 +1,7 @@
 import database from "../../database";
 
 const deleteCategoriesServices = async (id) => {
-  const queryResponse = await database
+  await database
     .query(
       `
       DELETE FROM 
