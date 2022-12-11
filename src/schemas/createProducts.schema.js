@@ -1,5 +1,4 @@
 import * as yup from "yup";
-import { v4 as uuidv4 } from "uuid";
 
 const createProductsShape = yup.object().shape({
   name: yup
